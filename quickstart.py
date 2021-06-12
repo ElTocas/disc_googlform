@@ -5,11 +5,9 @@ Created on Wed Jun  9 18:24:14 2021
 @author: marti
 """
 import pandas as pd
-from datetime import datetime
 import streamlit as st
 import disc_help as dh
 import numpy as np
-from matplotlib.pyplot import bar 
 
 data = pd.read_csv('https://docs.google.com/spreadsheets/d/1e8-6hwMTMTRcjGNROmV426hQwebfuF14ugcK5J_9sos/export?format=csv')
 #numerodatistart = data.shape[0]
