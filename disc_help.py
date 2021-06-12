@@ -41,6 +41,7 @@ def disc_help(D):
 def calcola(risp_eff,risp_poss,val_poss):
     s1 = np.array(risp_poss)
     s1_value = np.array(val_poss)
+    risp_eff = risp_eff.iloc[0]
     temp = np.array(risp_eff.split(", "))
     valore = np.sum(s1_value[np.where(np.in1d(s1,temp))])
     return valore
